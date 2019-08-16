@@ -1,0 +1,149 @@
+body {
+  font-family: "Lucida grande";
+  background-color:#f7f7f7;
+  margin: 0;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nav-bar {
+  background-color:#3b5998 ;
+  color: rgba(255,255,255,0.75);
+  overflow: hidden;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    color:#8b9dc3;
+    text-align: center;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  a.active {
+    color: #fff;
+  }
+
+  a:hover {
+    color: #f7f7f7;
+  }
+}
+
+#content {
+  padding: 1%;
+  background-color: #dfe3ee;
+
+  .news.header > h1
+  {
+    padding-left: 15px;
+    display: inline;
+  }
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input:disabled {
+  background-color: #fafbfc;
+}
+
+#login-form {
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  background-color: #bfccd0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  .error-message {
+    color: red;
+  }
+}
+
+#login-form  button {
+  width: 100%;
+}
+
+button {
+  background-color:#3b5998;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border:1px solid #ccc;
+  cursor: pointer;
+}
+
+article {
+  display: flex;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px 0 rgba(109, 146, 182, 0.315);
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding: 12px;
+
+  .img-wrap {
+    margin-right: 15px;
+    width: 400px;
+    height: 200px;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .title > a {
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+  }
+
+  .title > .author {
+    font-size: 12px;
+    line-height: 20px;
+    color: #757575;
+  }
+}
+
+
+
+.header.profile {
+  border-bottom: 1px #858c95 solid;
+  padding-bottom: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.profile-info {
+  width: 50%;
+  margin-left: 20px;
+
+  label {
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+
+  label + span {
+    margin-left: 8px;
+    font-size: 14px;
+  }
+}
+li > p {
+  margin-top: 16px;
+}
